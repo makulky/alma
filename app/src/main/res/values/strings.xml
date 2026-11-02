@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alma</string>
+
+    <string name="nav_library">Biblioteca</string>
+    <string name="nav_search">Buscar</string>
+    <string name="nav_calendar">Calendario</string>
+    <string name="nav_stats">Estadísticas</string>
+
+    <string name="back">Volver</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="retry">Reintentar</string>
+    <string name="save">Guardar</string>
+
+    <string name="status_pending">Pendiente</string>
+    <string name="status_reading">Leyendo</string>
+    <string name="status_read">Leído</string>
+
+    <string name="tab_reading">Leyendo</string>
+    <string name="tab_pending">Pendientes</string>
+    <string name="tab_read">Leídos</string>
+    <string name="library_filter">Filtrar por título o autor</string>
+    <string name="library_add">Añadir libro</string>
+    <string name="library_settings">Ajustes</string>
+    <string name="library_sort">Ordenar</string>
+    <string name="library_sort_date">Por fecha</string>
+    <string name="library_sort_rating">Por puntuación</string>
+    <string name="library_empty_reading">No estás leyendo nada ahora mismo.</string>
+    <string name="library_empty_pending">No tienes libros pendientes.</string>
+    <string name="library_empty_read">Aún no has marcado ningún libro como leído.</string>
+    <string name="library_empty_filter">Ningún libro coincide con el filtro.</string>
+    <string name="unknown_author">Autor desconocido</string>
+
+    <string name="search_hint">Título, autor o ISBN</string>
+    <string name="search_idle">Busca un libro para añadirlo a tu biblioteca.</string>
+    <string name="search_empty">No se han encontrado libros.</string>
+    <string name="search_offline">No hay conexión a Internet.</string>
+    <string name="search_rejected">Open Library ha rechazado la búsqueda. Puede que se haya alcanzado el límite de uso; inténtalo de nuevo en un rato.</string>
+    <string name="search_failed">No se ha podido completar la búsqueda.</string>
+    <string name="search_add_manually">¿No lo encuentras? Añádelo a mano</string>
+    <string name="search_saved">Guardado en tu biblioteca</string>
+    <string name="search_saved_read">Marcado como leído</string>
+    <string name="search_rate_action">Puntuar</string>
+
+    <string name="detail_status">Estado</string>
+    <string name="detail_started">Empezado</string>
+    <string name="detail_finished">Terminado</string>
+    <string name="detail_no_date">Sin fecha</string>
+    <string name="detail_rating">Puntuación</string>
+    <string name="detail_remove_rating">Quitar puntuación</string>
+    <string name="detail_comment">¿Qué te ha parecido?</string>
+    <string name="detail_synopsis">Sinopsis</string>
+    <string name="detail_pages">%d páginas</string>
+    <string name="detail_delete">Eliminar</string>
+    <string name="detail_delete_title">¿Eliminar este libro?</string>
+    <string name="detail_delete_message">Se borrarán también su puntuación, su comentario y sus fechas.</string>
+    <string name="detail_finished_prompt">¡Terminado! Puedes puntuarlo y dejar un comentario.</string>
+    <string name="detail_invalid_dates">La fecha de fin no puede ser anterior a la de inicio.</string>
+    <string name="rating_value">%s de 5 estrellas</string>
+    <string name="rating_none">Sin puntuar</string>
+
+    <string name="add_title">Añadir libro</string>
+    <string name="add_field_title">Título *</string>
+    <string name="add_field_authors">Autor *</string>
+    <string name="add_field_isbn">ISBN-13</string>
+    <string name="add_field_publisher">Editorial</string>
+    <string name="add_field_year">Año de publicación</string>
+    <string name="add_field_pages">Páginas</string>
+    <string name="add_field_description">Sinopsis</string>
+    <string name="add_pick_cover">Elegir portada</string>
+    <string name="add_invalid_isbn">El ISBN debe tener 13 dígitos.</string>
+    <string name="add_duplicate">Ya tienes un libro con ese ISBN.</string>
+    <string name="add_cover_failed">No se ha podido leer la imagen de la portada.</string>
+
+    <string name="calendar_previous">Mes anterior</string>
+    <string name="calendar_next">Mes siguiente</string>
+    <string name="calendar_started">Empezado</string>
+    <string name="calendar_finished">Terminado</string>
+    <string name="calendar_no_events">Ningún libro empezado ni terminado este día.</string>
+    <string name="calendar_select_day">Toca un día marcado para ver sus libros.</string>
+    <string-array name="calendar_weekdays">
+        <item>L</item>
+        <item>M</item>
+        <item>X</item>
+        <item>J</item>
+        <item>V</item>
+        <item>S</item>
+        <item>D</item>
+    </string-array>
+
+    <string name="stats_read_total">Libros leídos</string>
+    <string name="stats_average">Nota media</string>
+    <string name="stats_no_rating">Sin puntuaciones</string>
+    <string name="stats_per_year">Leídos por año</string>
+    <string name="stats_undated">Sin fecha</string>
+    <string name="stats_expanded">Desplegado</string>
+    <string name="stats_collapsed">Plegado</string>
+    <string name="stats_distribution">Reparto de puntuaciones</string>
+    <string name="stats_empty">Las estadísticas aparecerán cuando marques algún libro como leído.</string>
+
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_backup">Copia de seguridad</string>
+    <string name="settings_backup_explanation">Tus libros solo se guardan en este móvil. Exporta una copia para conservarlos o llevarlos a otro dispositivo.</string>
+    <string name="settings_export">Exportar copia</string>
+    <string name="settings_import">Importar copia</string>
+    <string name="settings_import_note">Importar combina la copia con tu biblioteca: no borra ningún libro. Si un libro está en ambos sitios, se queda la versión más reciente.</string>
+    <string name="settings_export_done">Copia exportada: %d libros</string>
+    <string name="settings_export_failed">No se ha podido exportar la copia.</string>
+    <string name="settings_import_title">¿Importar esta copia?</string>
+    <string name="settings_import_summary">Libros nuevos: %1$d\nLibros que se actualizarán: %2$d\nSin cambios: %3$d</string>
+    <string name="settings_import_action">Importar</string>
+    <string name="settings_import_done">Copia importada</string>
+    <string name="settings_import_failed">No se ha podido importar la copia. Tus datos no han cambiado.</string>
+    <string name="settings_import_corrupt">El archivo está dañado o no es una copia de Alma. Tus datos no han cambiado.</string>
+    <string name="settings_import_newer">Esta copia se creó con una versión más nueva de Alma. Actualiza la app para importarla.</string>
+    <string name="settings_import_invalid">El archivo contiene rutas no válidas y no se ha importado. Tus datos no han cambiado.</string>
+</resources>

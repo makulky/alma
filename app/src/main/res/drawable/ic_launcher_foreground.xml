@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Tapas del libro -->
+    <path
+        android:fillColor="#3B1F12"
+        android:pathData="M29,51L29,75C40,75 48,76.5 54,81C60,76.5 68,75 79,75L79,51Z" />
+    <!-- Páginas: la derecha algo más oscura para marcar el pliegue -->
+    <path
+        android:fillColor="#FBF1E3"
+        android:pathData="M54,54C49,49.5 41,48 31,48L31,72C41,72 49,73.5 54,78Z" />
+    <path
+        android:fillColor="#EFDCC4"
+        android:pathData="M54,54C59,49.5 67,48 77,48L77,72C67,72 59,73.5 54,78Z" />
+    <!-- Estrella -->
+    <path
+        android:fillColor="#F2B84B"
+        android:strokeColor="#F2B84B"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M54,27.5L56.47,34.1L63.51,34.41L57.99,38.8L59.88,45.59L54,41.7L48.12,45.59L50.01,38.8L44.49,34.41L51.53,34.1Z" />
+</vector>
